@@ -38,7 +38,7 @@ git init
 git add .
 git commit -m "Initial commit: ABC Technologies website + DevOps pipeline"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<RegisterNumber>-DevOps-Project.git
+git remote add origin https://github.com/Sakshya10027/24BCY10027-DevOps-Project.git
 git push -u origin main
 ```
 
@@ -69,7 +69,7 @@ docker run -d --name jenkins \
 
 ### Add credentials
 Manage Jenkins → Credentials → Add:
-- `dockerhub-creds` — your Docker Hub username/password (matches the ID
+- `dockerhub-creds` your Docker Hub username/password (matches the ID
   used in the `Jenkinsfile`)
 
 ### Create the pipeline job
