@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABC Technologies | Engineering that ships and stays up</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="brand-mark"></span>ABC Technologies</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <span class="status-pill"><span class="dot"></span>All systems operational</span>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Corporate Engineering</div>
+          <h1>We build software that ships itself — and tells you when it's not okay.</h1>
+          <p class="lead">ABC Technologies designs, deploys, and monitors web applications through a single automated pipeline, so your team spends less time babysitting releases and more time building.</p>
+          <div class="hero-actions">
+            <a href="services.html" class="btn btn-primary">Explore our services</a>
+            <a href="contact.html" class="btn btn-ghost">Talk to us</a>
+          </div>
+          <div class="hero-metrics">
+            <div><strong>99.9%</strong><span>Uptime SLA</span></div>
+            <div><strong>&lt;4min</strong><span>Avg. build time</span></div>
+            <div><strong>120+</strong><span>Deploys / month</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="row"><span>main</span><span class="tag">merged</span></div>
+          <div class="row"><span>build #482</span><span class="tag">passed</span></div>
+          <div class="row"><span>image pushed</span><span class="tag">docker hub</span></div>
+          <div class="row"><span>pods</span><span class="tag">2/2 running</span></div>
+          <div class="row"><span>website</span><span class="tag">live</span></div>
+        </div>
+      </div>
+
+      <div class="pipeline">
+        <div class="pipeline-head">
+          <span>ci_cd_pipeline.yaml</span>
+          <span class="live"><span class="dot"></span>live</span>
+        </div>
+        <div class="pipeline-track">
+          <div class="pipeline-stage">
+            <span class="num">01</span>
+            <span class="node"></span>
+            <span class="label">Commit</span>
+          </div>
+          <div class="pipeline-stage">
+            <span class="num">02</span>
+            <span class="node"></span>
+            <span class="label">Build</span>
+          </div>
+          <div class="pipeline-stage">
+            <span class="num">03</span>
+            <span class="node"></span>
+            <span class="label">Test</span>
+          </div>
+          <div class="pipeline-stage">
+            <span class="num">04</span>
+            <span class="node"></span>
+            <span class="label">Deploy</span>
+          </div>
+          <div class="pipeline-stage">
+            <span class="num">05</span>
+            <span class="node"></span>
+            <span class="label">Monitor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Why ABC Technologies</div>
+        <h2>Every release is automated, monitored, and reversible</h2>
+        <p>We treat infrastructure as seriously as the product itself.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Built for reliability</h3>
+          <p>Health checks, readiness probes, and continuous monitoring catch problems before your users do.</p>
+        </div>
+        <div class="card">
+          <h3>Automated end-to-end</h3>
+          <p>From commit to production, every change moves through the same tested, repeatable pipeline.</p>
+        </div>
+        <div class="card">
+          <h3>Scales on demand</h3>
+          <p>Containerized services orchestrated with Kubernetes grow with your traffic, not against it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="stat-strip">
+        <div><strong>99.9%</strong><span>Uptime</span></div>
+        <div><strong>18</strong><span>Active clients</span></div>
+        <div><strong>4min</strong><span>Avg. deploy time</span></div>
+        <div><strong>24/7</strong><span>Monitoring coverage</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <p>&copy; <span id="year"></span> ABC Technologies. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

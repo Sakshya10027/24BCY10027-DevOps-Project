@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: abc-website-deployment
+  labels:
+    app: abc-website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: abc-website
+  template:
+    metadata:
+      labels:
+        app: abc-website
+    spec:
+      containers:
+        - name: abc-website
+          image: YOUR_DOCKERHUB_USERNAME/abc-technologies-website:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "64Mi"
+            limits:
+              cpu: "250m"
+              memory: "128Mi"
+          livenessProbe:
+            httpGet:
+              path: /health.txt
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /health.txt
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 5

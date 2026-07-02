@@ -1,0 +1,6 @@
+.git
+k8s/
+nagios/
+monitoring/
+*.md
+Jenkinsfile

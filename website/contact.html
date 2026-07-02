@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABC Technologies | Contact Us</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="brand-mark"></span>ABC Technologies</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <span class="status-pill"><span class="dot"></span>All systems operational</span>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 1rem;">
+    <div class="wrap">
+      <div class="eyebrow">Contact Us</div>
+      <h1 style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 700px;">Tell us what you're building.</h1>
+      <p class="lead" style="margin-top: 1rem;">We reply to every message within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="form-grid">
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" placeholder="Jordan Smith" required>
+          </div>
+          <div class="field">
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="jordan@company.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Your message</label>
+            <textarea id="message" rows="5" placeholder="What are you looking to build?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+
+        <div class="contact-info">
+          <div class="row"><div class="k">Email</div><div>hello@abctechnologies.example</div></div>
+          <div class="row"><div class="k">Phone</div><div>+1 (555) 010-2938</div></div>
+          <div class="row"><div class="k">Office</div><div>Remote-first, HQ in Bengaluru</div></div>
+          <div class="row"><div class="k">Response time</div><div>&lt; 1 business day</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <p>&copy; <span id="year"></span> ABC Technologies. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
