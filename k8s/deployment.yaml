@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: abc-website
-          image: YOUR_DOCKERHUB_USERNAME/abc-technologies-website:latest
+          image: noctro29/abc-technologies-website:latest
           ports:
             - containerPort: 80
           resources:

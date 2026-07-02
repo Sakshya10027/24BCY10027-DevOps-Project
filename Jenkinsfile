@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Change these to match your setup
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds') // Jenkins credential ID
-        DOCKER_IMAGE = "YOUR_DOCKERHUB_USERNAME/abc-technologies-website"
+        DOCKER_IMAGE = "noctro29/abc-technologies-website"
         IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
 
