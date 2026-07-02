@@ -69,7 +69,7 @@ docker run -d --name jenkins \
 
 ### Add credentials
 Manage Jenkins → Credentials → Add:
-- `dockerhub-creds` — your Docker Hub username/password (matches the ID
+- `dockerhub-creds` your Docker Hub username/password (matches the ID
   used in the `Jenkinsfile`)
 
 ### Create the pipeline job
