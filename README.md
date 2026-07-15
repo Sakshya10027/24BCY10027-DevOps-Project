@@ -1,4 +1,4 @@
-# ABC Technologies — Corporate Website DevOps Project
+# ABC Technologies  Corporate Website DevOps Project
 ### Use Case 1: Corporate Company Website Deployment
 
 This project contains a static corporate website (Home, About Us, Services,
